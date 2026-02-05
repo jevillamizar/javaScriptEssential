@@ -27,6 +27,23 @@ function show(){
     }
     show();
     
-    console.log(functionVar); // Lanza ReferenceError
-    console.log(functionLet); // Lanza ReferenceError
-    console.log(functionConst); // Lanza ReferenceError
+    //console.log(functionVar); // Lanza ReferenceError
+    //console.log(functionLet); // Lanza ReferenceError
+    //console.log(functionConst); // Lanza ReferenceError
+
+{
+    let name = "Esteban"
+    var age = 31
+    const date = 1994
+
+    name = "Esteban Villamizar"
+    age = 49
+    //date = 1996
+}
+name = "Esteban Villamizar"
+age = 49
+date = 1996
+
+console.log(name)
+console.log(age)
+console.log(date)
