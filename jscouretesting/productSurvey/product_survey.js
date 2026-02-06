@@ -1,5 +1,5 @@
 function submitFeedback() {
-    
+
     const username = document.getElementById('name').value;
     const age = document.getElementById('age').value;
     const email = document.getElementById('email').value;
@@ -7,11 +7,13 @@ function submitFeedback() {
     const designation = document.getElementById('designation').value;
     const productType = document.getElementById('productType').value;
     const feedback = document.getElementById('feedbackText').value;
+    const experience = document.getElementById('experience').value;
 
     alert('Thank you for your valuable feedback')
 
     document.getElementById('userName').innerHTML = username;
     document.getElementById('userAge').innerHTML = age;
+    document.getElementById('userExperience').innerHTML = experience;
     document.getElementById('userEmail').innerHTML = email;
     document.getElementById('userJob').innerHTML = job;
     document.getElementById('userDesignation').innerHTML = designation;
